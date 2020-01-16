@@ -107,6 +107,7 @@ img {
     float: left;
     width: 75px;
     height: 75px;
+
 }
 
 
@@ -131,6 +132,14 @@ img {
     padding: 1px 1px 1px 1px;
 }
 
+.copyright_text {
+    width: 120px;
+    height: 30px;
+    justify-content: space-around;
+    padding: 1px 1px 1px 1px;
+    color: white;
+
+}
 .details_container {
     display: flex;
     justify-content:space-around;
@@ -254,3 +263,4 @@ img {
     height: 200px;
     object-fit: scale-down;
 }
+
