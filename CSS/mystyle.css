@@ -21,15 +21,32 @@
 
 .navigation_container {
     background-color: none;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
     position: fixed;
+    display: inline-block;
     width: 100%;
-    z-index: 3;
+    z-index: 10;
     top: 0;
     left: 0;
     height:100px;
 }
 
+.rightdiv{
+    float: right;
+}
+
+.leftdiv{
+    float: left;
+}
+
+.videoclass{
+    z-index: -999;
+    height: 439px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
 
 .menu {
     list-style: none;
@@ -44,16 +61,19 @@
     padding: 5px 5px 5px 20px;
 }
 
-.logo_image {
-    display: flex;
-    width: 50%;
-    height: 50%;
-}
-
 .center {
     position: absolute;
     left: 45%;
-    margin-left: -10%
+    display: inline-block;
+    margin-left: -10%;
+    width: 30%;
+    height: 10%;
+    z-index: 9000;
+}
+.centerbehind {
+    position: absolute;
+    left: 45%;
+    z-index: -1;
 }
 .melting_head {
     width: 100%;
@@ -155,6 +175,7 @@ img {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
+
 }
 
 .content_container {
@@ -285,3 +306,7 @@ img {
     object-fit: scale-down;
 }
 
+.video {
+    width: 2300px;
+    height: 400px;
+}
